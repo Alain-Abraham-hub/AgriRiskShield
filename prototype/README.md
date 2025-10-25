@@ -12,7 +12,7 @@ This prototype demonstrates how **AI + Blockchain** can provide a **virtual alte
 
 ## 🚀 Features
 
-- 🤖 **AI-Driven Price Forecasting** — Predicts oilseed prices using linear regression on historical market data  
+- 🤖 **AI-Driven Price Forecasting** — Pgitredicts oilseed prices using linear regression on historical market data  
 - ⛓️ **Blockchain Ledger Simulation** — Logs forward contracts transparently using cryptographic hashes  
 - 📊 **Streamlit Dashboard** — Interactive visualization for prices, forecasts, and blockchain blocks  
 - 🧠 **Educational Tool** — Helps farmers understand how hedging and digital contracts work  
@@ -20,3 +20,12 @@ This prototype demonstrates how **AI + Blockchain** can provide a **virtual alte
 ---
 
 ## 🏗️ Project Structure
+
+virtual-hedging-platform/
+├── data/           # Historical price CSV files
+├── backend/        # AI model, forecasting logic
+├── blockchain/     # Blockchain ledger simulation
+├── frontend/       # Streamlit dashboard
+├── notebooks/      # Experiments and model prototyping
+├── README.md
+└── requirements.txt
